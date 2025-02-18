@@ -5,7 +5,7 @@ import os
 # Adjusting the import path for TestUtils and RestaurantManager
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from test.TestUtils import TestUtils
-from restaurant_manager1 import *
+from restaurant_manager import *
 
 
 class TestRestaurantManager(unittest.TestCase):
